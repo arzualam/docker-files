@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:6.10
 MAINTAINER ArzuAlam
 
 RUN yum update -y && yum install openssh-server openssh -y
